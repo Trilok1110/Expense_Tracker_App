@@ -67,7 +67,7 @@ class _ExpensesState extends State<Expenses> {
   Widget build(context) {
     final width = MediaQuery.of(context).size.width;
     Widget mainContent = const Center(
-      child: Text('List is empty. please add Expense'),
+      child: Text('List is empty.please add Expense'),
     );
 
     if (_resisterdExpenses.isNotEmpty) {
